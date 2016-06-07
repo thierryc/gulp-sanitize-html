@@ -1,0 +1,48 @@
+{
+  "name": "gulp-sanitize-html",
+  "description": "gulp plugin to sanitize HTML.",
+  "version": "0.0.1",
+  "author": {
+    "name": "Thierry Charbonnel",
+    "url": "https://github.com/thierryc"
+  },
+  "contributors": [
+    "Thierry Charbonnel <thierry.charbonnel@autreplanete.com> (https://github.com/thierryc)"
+  ],
+  "repository": "thierryc/gulp-sanitize-html",
+  "license": "MIT",
+  "keywords": [
+    "format",
+    "gulp",
+    "gulpplugin",
+    "htm",
+    "html",
+    "sanitize",
+    "clean",
+    "cleanup"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "pretest": "eslint --config @shinnn/node-legacy index.js test",
+    "test": "mocha"
+  },
+  "dependencies": {
+    "bufferstreams": "^1.1.0",
+    "gulp-util": "^3.0.7",
+    "object-assign": "^4.0.1",
+    "readable-stream": "^2.0.2",
+    "sanitize-html": "^1.11.4",
+    "tryit": "^1.0.1"
+  },
+  "devDependencies": {
+    "@shinnn/eslint-config-node-legacy": "^2.0.0",
+    "chai": "^3.4.0",
+    "eslint": "^2.4.0",
+    "mocha": "*",
+    "simple-bufferstream": "^1.0.0",
+    "verb": "^0.8.10",
+    "vinyl": "^1.1.0"
+  }
+}
